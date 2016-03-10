@@ -1,0 +1,31 @@
+{
+  "name": "common-cartridge",
+  "version": "1.0.0",
+  "description": "Parser for common cartridges",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha '**/__tests__/*'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aaronshaf/common-cartridge.git"
+  },
+  "keywords": [
+    "common",
+    "cartridge",
+    "imscc"
+  ],
+  "author": "Aaron Shafovaloff <aaronshaf@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aaronshaf/common-cartridge/issues"
+  },
+  "homepage": "https://github.com/aaronshaf/common-cartridge#readme",
+  "devDependencies": {
+    "mocha": "^2.4.5"
+  },
+  "dependencies": {
+    "unzip": "^0.1.11",
+    "xml2json": "^0.9.0"
+  }
+}
